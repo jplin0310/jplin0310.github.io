@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ALISAI 的名片</title>
+    <link href="1008_namecard.css" rel="stylesheet" type="text/css">
+</head>
+
+<style>
+    @charset "utf-8";
+    /* CSS 文檔 */
+
+    * {
+        /* border:solid 1px ; */
+        position: relative;
+    }
+
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0px; margin: 0px;
+    }
+
+    body {
+        background-color: #d1d1d1;
+        border-top: solid 20px #b6c2d9;
+        border-bottom: solid 20px #b6c2d9;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .namecard {
+        width: 380px; height: 230px;
+        border: solid 1px #272932;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+
+        background-color: #b6c2d9;
+        overflow: hidden;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    .namecard h2 {
+        position: absolute;
+        font-size: 19px;
+        font-weight: 550;
+        color: #272932;
+        letter-spacing: 4px;
+        padding-left: 15px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .namecard h2 span {
+        font-size: 12px;
+        letter-spacing: 6px;
+    }
+
+    .namecard h6 {
+        color: white;
+        padding-left: 130px;
+        background: linear-gradient(to right, #9e90a2, #828489);
+        top: 50px;
+    }
+
+    .company {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        padding-left: 150px;
+        top: 40px;
+    }
+
+    .namecard p {
+        position: absolute;
+        font-size: 12px;
+        padding-left: 150px;
+        top: 115px;
+    }
+
+    .mark {
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border: solid 1px #9e90a2;
+        border-radius: 5px;
+        width: 80px; height: 40px;
+        background: #9e90a2;
+    }
+
+    .circle {
+        width: 60px; height: 50px;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #b6c2d9;
+    }
+
+    .circle1 { top: -23px; right: 25px; }
+    .circle2 { top: 25px; right: -30px; }
+    .circle3 { top: 58px; right: 30px; width: 50px; height: 10px; }
+    .circle4 { top: 25px; right: 85px; }
+
+    .title {
+        font-size: 300px;
+        font-weight: 200;
+        position: absolute;
+        bottom: 100px;
+        color: rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<body>
+    <div class="namecard">
+        <h2>林哲平
+            <span>數位科技設計學系</span>
+        </h2>
+        <h6>國立臺北教育大學</h6>
+        <div class="company">國立臺北教育大學</div>
+        <p>106 台北市大安區和平東路二段134號<br>
+            電話：+886 02xx-xxx-xxx<br>
+            行動：+886 09xx-xxx-xxx<br>
+            統編：12345678<br>
+            網站：jplin0310.github.io<br>
+            Email：jplin950310@gmail.com<br>
+        </p>
+        <div class="mark">JPLIN</div>
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+        <div class="circle circle4"></div>
+    </div>
+</body>
+
+</html>
